@@ -16,20 +16,20 @@ Once the install is completed, we can verify by running:
 Next, let us create a new environment with Virtualenv:
 
 
-    virtualenv terminal-chat
+    virtualenv flip
 
 Once the environment is done creating, we move into the new directory created and we activate the environment:
 
 
     # change directory
-    cd terminal-chat
+    cd flip
     # activate environment
     source bin/activate
 
 Clone the project repository by running the command below if you use SSH
 
 ```
-git clone git@github.com:samuelayo/terminal-chat.git
+git clone git@github.com:Golden-Dagger/flip.git
 ```
 
 If you use https, use this instead
@@ -41,7 +41,7 @@ git clone https://github.com/samuelayo/terminal-chat.git
 Move into the new directory
 
 ```
-cd terminal-chat
+cd flip
 ```
 
 install Pysher from the github link, as the one delivered to pypy is outdated.

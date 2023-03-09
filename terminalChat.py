@@ -72,8 +72,8 @@ class terminalChat():
     def pusherCallback(self, message):
         message = json.loads(message)
         if message['user'] != self.user:
-            print(colored("{}: {}".format(message['user'], message['message']), "blue"))
-            print(colored("{}: ".format(self.user), "green"))
+            print(colored("{}: {}".format(message['user'], message['message']), "green"))
+            print(colored("{}: ".format(self.user), "blue"))
     
     ''' This function is used to get the user's current message '''
     def getInput(self):
